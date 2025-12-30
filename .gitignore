@@ -1,0 +1,10 @@
+.vs/
+obj/
+bin/
+.idea/
+
+*.DotSettings.user
+
+*Mod.zip
+Configs/
+Libraries/

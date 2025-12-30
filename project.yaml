@@ -1,0 +1,27 @@
+workshop: 
+configEdits: 
+textEdits:
+  languages:
+    English:
+      sectors:
+        ui_settings:
+          text:
+            game_combat_simulation_time_scale_full__header:
+              text: Simulation full speed
+              textSource: 
+            game_combat_simulation_time_scale_full__text:
+              text: Time scale factor for full speed setting in simulation.
+              textSource: 
+            game_combat_simulation_time_scale_slow__header:
+              text: Simulation slow speed
+              textSource: 
+            game_combat_simulation_time_scale_slow__text:
+              text: Time scale factor for slow speed setting in simulation.
+              textSource: 
+assetBundles: 
+libraryDLLs:
+  files:
+  - enabled: true
+    relative: true
+    path: bin/Release/SimulationTimeScaleSetting.dll
+extraFiles: 

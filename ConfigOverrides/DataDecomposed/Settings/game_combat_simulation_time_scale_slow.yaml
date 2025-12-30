@@ -1,0 +1,18 @@
+hidden: false
+instant: false
+priority: 31
+mode: Slider
+group: game
+header: 
+valueDefault: 0.03875786
+valueMin: 0.01
+valueMax: 1
+valueSuffix: 
+valueFormat: F4
+valueVisualMultiplier: 1
+levelsUsedForInput: true
+levelsUsedForUI: true
+levelsLocalized: true
+entKey: 
+levels: 
+upgrades: 

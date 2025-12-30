@@ -1,0 +1,5 @@
+edits:
+  game_combat_simulation_time_scale_full__header: Simulation full speed
+  game_combat_simulation_time_scale_full__text: Time scale factor for full speed setting in simulation.
+  game_combat_simulation_time_scale_slow__header: Simulation slow speed
+  game_combat_simulation_time_scale_slow__text: Time scale factor for slow speed setting in simulation.
