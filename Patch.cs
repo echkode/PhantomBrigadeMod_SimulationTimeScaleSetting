@@ -62,15 +62,17 @@ namespace EchKode.PBMods.SimulationTimeScaleSetting
             var helpers = Traverse.Create(__instance).Field<Dictionary<string, CIHelperSetting>>("settingInstances").Value;
             var selections = SettingUtility.GetSelections();
             var valueStr = selections[GameSettings.keySimulationSlowSpeedScaleFactor];
-            if (helpers.TryGetValue(GameSettings.keySimulationSlowSpeedScaleFactor, out var helper))
+            var updateSetting = SettingUtility.TryParseFloat(valueStr, out var slowValue) && valueFromBar < slowValue;
+            var hasHelper = helpers.TryGetValue(GameSettings.keySimulationSlowSpeedScaleFactor, out var helper);
+            if (hasHelper)
             {
                 __instance.SetupHelper(slow, helper, valueStr);
             }
-            if (SettingUtility.TryParseFloat(valueStr, out var slowValue) && valueFromBar < slowValue)
+            if (updateSetting)
             {
                 __instance.OnSettingSlider(GameSettings.keySimulationSlowSpeedScaleFactor, valueFromBar);
             }
-            else
+            else if (hasHelper)
             {
                 __instance.RedrawValue(GameSettings.keySimulationSlowSpeedScaleFactor, helper);
             }
