@@ -1,5 +1,5 @@
 edits:
   game_combat_simulation_time_scale_full__header: シミュレーションの全速速度
-  game_combat_simulation_time_scale_full__text: シミュレーションにおける全速設定の時間スケール係数。
+  game_combat_simulation_time_scale_full__text: シミュレーションにおける全速設定の時間スケール係数。例えば、既定値 = 0.6、リプレイのスロー/半速/全速 = 0.12/0.6/1.2
   game_combat_simulation_time_scale_slow__header: シミュレーションのスロー速度
-  game_combat_simulation_time_scale_slow__text: シミュレーションにおけるスロー設定の時間スケール係数。
+  game_combat_simulation_time_scale_slow__text: シミュレーションにおけるスロー設定の時間スケール係数。例えば、既定値 = 0.0388
