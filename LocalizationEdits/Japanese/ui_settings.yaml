@@ -1,0 +1,5 @@
+edits:
+  game_combat_simulation_time_scale_full__header: シミュレーションの全速速度
+  game_combat_simulation_time_scale_full__text: シミュレーションにおける全速設定の時間スケール係数。
+  game_combat_simulation_time_scale_slow__header: シミュレーションのスロー速度
+  game_combat_simulation_time_scale_slow__text: シミュレーションにおけるスロー設定の時間スケール係数。
