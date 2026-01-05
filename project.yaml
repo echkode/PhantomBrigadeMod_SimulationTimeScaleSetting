@@ -10,13 +10,35 @@ textEdits:
               text: Simulation full speed
               textSource: 
             game_combat_simulation_time_scale_full__text:
-              text: Time scale factor for full speed setting in simulation.
+              text: Time scale factor for full speed setting in simulation. For example, default = 0.6, slow/half/full playback speed = 0.12/0.6/1.2
               textSource: 
             game_combat_simulation_time_scale_slow__header:
               text: Simulation slow speed
               textSource: 
             game_combat_simulation_time_scale_slow__text:
-              text: Time scale factor for slow speed setting in simulation.
+              text: Time scale factor for slow speed setting in simulation. For example, default = 0.0388
+              textSource: 
+            game_combat_simulation_turn_ease_inout__header:
+              text: Simulation turn ease in/out
+              textSource: 
+            game_combat_simulation_turn_ease_inout__text:
+              text: At turn start ease into full speed. At turn end ease out of full speed to pause.
+              textSource: 
+    Japanese:
+      sectors:
+        ui_settings:
+          text:
+            game_combat_simulation_time_scale_full__header:
+              text: シミュレーションの全速速度
+              textSource: 
+            game_combat_simulation_time_scale_full__text:
+              text: シミュレーションにおける全速設定の時間スケール係数。例えば、既定値 = 0.6、リプレイのスロー/半速/全速 = 0.12/0.6/1.2
+              textSource: 
+            game_combat_simulation_time_scale_slow__header:
+              text: シミュレーションのスロー速度
+              textSource: 
+            game_combat_simulation_time_scale_slow__text:
+              text: シミュレーションにおけるスロー設定の時間スケール係数。例えば、既定値 = 0.0388
               textSource: 
 assetBundles: 
 libraryDLLs:

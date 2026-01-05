@@ -3,3 +3,5 @@ edits:
   game_combat_simulation_time_scale_full__text: Time scale factor for full speed setting in simulation. For example, default = 0.6, slow/half/full playback speed = 0.12/0.6/1.2
   game_combat_simulation_time_scale_slow__header: Simulation slow speed
   game_combat_simulation_time_scale_slow__text: Time scale factor for slow speed setting in simulation. For example, default = 0.0388
+  game_combat_simulation_turn_ease_inout__header: Simulation turn ease in/out
+  game_combat_simulation_turn_ease_inout__text: At turn start ease into full speed. At turn end ease out of full speed to pause.
